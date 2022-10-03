@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #00BFA6;
+}
+
+.links__menu a:hover {
+    color: #000;
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    color:#00BFA6;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_titulo {
+    font-size: 3rem;
+    color: #00BFA6;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.header__menu__item {
+    font-size: 1rem;
+    margin: 0 30px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.links__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(/Image/undraw_Travelers_re_y25a\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+
+.header__chamada {
+    width: 50%;
+    height: 90vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 30px;
+}
+
+.header_botao {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #00BFA6;
+    margin-bottom: 2rem;
+}
+
+.header__chamada a:hover {
+    background-color: rgb(223, 223, 223);
+    color: #00BFA6;
+}
+
+.negocios {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabalho {
+    background-color: #00BFA6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 90vh;
+}
+
+.bloco {
+    width: 28%;
+    height: 60vh;
+    border: 0.5px solid #00BFA6;
+    border-radius: 3%;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    width: 100%;;
+    font-size: 3rem;
+    text-align: center;
+    color: #00BFA6;
+    margin-bottom: 2rem;
+}
+
+/* quadradinhos dos hoteis */
+p {
+    color: #00BFA6;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #00BFA6;
+    /* display: flex; */
+    justify-content: center;
+    padding-bottom: 7%;
+    box-sizing: border-box;
+    
+}
+
+.imagem1 {
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max300/340241495.jpg?k=10d2feb239c62bdb37d4b06c33fcc1ad1cf4e3dd6100b8a9dc3182d6195e13fa&o=&hp=1);
+}
+
+.imagem2 {
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(http://d2t6k95walcly3.cloudfront.net/unsafe/840x460/anuncios/blue-tree-premium-faria-lima-sao-paulo-sao-paulo-55a44e8261901.jpg);
+}
+
+.imagem3 {
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1280x900/60730834.jpg?k=b4f766fca8cb1456555339fb9eee38c5a8cde067f5633a644b17993f8364e382&o=&hp=1);
+}
+
+.infos {
+    width: 100%;
+}
+
+i {
+    color: #00BFA6;
+    padding: 2% 0 2% 0;
+    box-sizing: border-box;
+}
+
+.infos__1 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    display: flex;  
+    justify-content: center;
+    border: 0.2px solid #00BFA6;
+    margin: 5% 35% 0 35%;
+    background-color: #fff;
+    color: #00BFA6;
+}
+
+.botao a:hover {
+    background-color: #00BFA6;
+    color: #00BFA6;
+    width: 100%;
+    text-align: center;
+}
+
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00BFA6;
+  padding: 3%;
+}
+
+.rodape p {
+  color: #fff;
+  text-align: center;
+}
+
+
+
+@media (max-width: 940px) {
+    .header {
+        background-color: #fff;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 8vh;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .links__menu {
+        width: 100%;
+        height: 200px;
+        padding-right: 1vh;
+        position: fixed;
+        right: -100vw;
+        top: 10vh;
+        transition: 0.5s;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header__chamada {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__botao {
+        padding: 5%;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #00BFA6;
+        border-radius: 3%;
+        font-size: 1.5rem;
+        color: #00BFA6;
+        width: 80%;
+    }
+
+    .header__chamada a:hover {
+        background-color: #00BFA6;
+        color: #00BFA6;
+    }
+
+
+    .container {
+        width: 100%;
+        height: 210vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blocos {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 10%;
+        width: 100%;
+        margin: 35vh 0 20vh 0;
+    }
+
+    .bloco {
+        width: 80%;
+        height: 50vh;
+        border: 0,5px solid #fff;
+        border-radius: 3%;
+        padding: 0 2% 0 2%;
+        margin: 7% 0 7% 0;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    @media (max-width: 450px) {
+        html {
+            font-size: 14px;
+        }
+    }
